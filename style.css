@@ -22,19 +22,49 @@ p{
 }
 .half-width img{
     width: 80%;
-    
-}
-
-section{
-    height: 400px;
-    padding-bottom: 250px;
 }
 .link-button{
-    text-decoration: none;
-    background-image: linear-gradient(50deg, lightsalmon, tomato);
-    padding: 5px,10px;
-    border-radius: 3px;
-    color: white;
-    font-weight: 750;
+    background-color: linear-gradient(50deg, lightsalmon, tomato);
+    border: none;
+    color: rgb(131, 74, 42);
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
 }
+.link-button:hover{
+    background-color: rgb(247, 103, 7);
+}
+.btn {
+    background-color: linear-gradient(50deg, lightsalmon, tomato);
+    border: none;
+    color: rgb(131, 74, 42);
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn:hover {
+    background-color: rgb(247, 103, 7);
+  }
+.container{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    
+    background-repeat: no-repeat;
+}
+#box-1 img{
+    width:100%;
+    height: 230px;
+}
+#box-2 img{
+    width:100%;
+    height: 230px;
+}
+#box-3 img{
+    width:100%;
+    height: 230px;
+}
+
+
+
 
